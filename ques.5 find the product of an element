@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+	int arr[]={7,1,5,4,9,10,3};
+	int i,n,pro=1;
+	n=sizeof(arr)/sizeof(int);
+	for(i=0;i<n;i++)
+	{
+	   pro=pro*arr[i];
+	}
+	printf("%d",pro);
+	
+	return 0;
+}
+
